@@ -24,18 +24,17 @@ A simple backend API built using **Node.js**, **Express**, and **MongoDB** to ha
 
 ---
 
-##  API Endpoints
+## 🌐 Live API
 
-### `POST /api/contact`
+- 🔹 [POST Contact](https://contact-form-api-w0h4.onrender.com/api/contact)
+- 🔹 [GET All Contacts](https://contact-form-api-w0h4.onrender.com/api/contact)
 
-Submit contact form data.
-
-#### Request Body:
-
+### Sample POST Body:
 ```json
 {
   "name": "Sanjay",
-  "email": "sanjay@example.com",
+  "email": "sanjaythehero2001@gmail.com",
   "phone": "8056638834",
-  "message": "This is a test submission"
+  "message": "Live API test"
 }
+
